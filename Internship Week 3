@@ -1,0 +1,24 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample data
+data = {
+    'Year': [2020, 2021, 2022, 2023, 2024],
+    'Sales': [150, 200, 250, 300, 350]
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Create a line plot
+plt.figure(figsize=(10, 5))
+plt.plot(df['Year'], df['Sales'], marker='o')
+plt.title('Sales Over Years')
+plt.xlabel('Year')
+plt.ylabel('Sales')
+plt.grid()
+
+# Save the plot as a PDF
+plt.savefig('sales_over_years.pdf')
+plt.show()
+
