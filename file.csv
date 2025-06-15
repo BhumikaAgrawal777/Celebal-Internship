@@ -1,0 +1,11 @@
+survived,pclass,sex,age,sibsp,parch,fare,embarked
+1,1,female,29,0,0,100,S
+0,3,male,22,1,0,7.25,S
+1,2,female,27,0,2,12.35,C
+0,3,male,35,0,0,8.05,S
+1,1,female,54,0,1,51.86,S
+0,3,male,2,3,1,21.07,S
+0,3,male,27,0,0,7.9,S
+1,2,female,14,1,0,30.07,C
+0,3,male,4,4,1,16.7,S
+1,1,female,58,0,0,26.55,C
